@@ -16,3 +16,8 @@ a['name'] = 'John'  # {'name': 'John'} ('name' is the key, and 'John' is the val
 a['hobby'] = 'basketball'  # {'name': 'John', 'hobby': 'basketball'}
 if 'age' in a:  # False because 'age' is not in dictionary a
     print('age key exists')
+
+# dictionary functions
+# .keys() returns keys
+# .values() returns values
+# .items() returns keys and values
