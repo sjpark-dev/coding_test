@@ -31,10 +31,10 @@ a = [1, 2, 3]
 a = list(combinations(a, 2))  # [(1, 2), (1, 3), (2, 3)]
 # 순열 (중복 허용)
 a = [1, 2, 3]
-a = list(product(a, repeat=2))  # [(1, 2), (1, 3), (2, 3)] (repeat 속성 필요)
+a = list(product(a, repeat=2))  # [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)] (repeat 필요)
 # 조합 (중복 허용)
 a = [1, 2, 3]
-a = list(combinations_with_replacement(a, 2))  # [(1, 2), (1, 3), (2, 3)]
+a = list(combinations_with_replacement(a, 2))  # [(1, 1), (1, 2), (1, 3), (2, 2), (2, 3), (3, 3)]
 # permuatations, combinations, product, combinations_with_replacement는 클래스이므로 초기화 이후 리스트 자료형으로 변환
 print(a)
 
