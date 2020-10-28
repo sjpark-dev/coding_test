@@ -1,5 +1,7 @@
-def dfs(l, sum):
+def dfs(l, tsum):
     global result
+    if sum(a) > result:
+        return
     if l == n:
         total = 0
         for i in range(n):
@@ -7,9 +9,10 @@ def dfs(l, sum):
         if total == m and sum(a) < result:
             result = sum(a)
     else:
-        for i in range(sum//coins[l]+1):
+        for i in range(tsum//coins[l]+1):
             a[l] = i
-            dfs(l+1, sum-(coins[l]*i))
+            dfs(l+1, tsum-(coins[l]*i))
+            a[l] = 0
 
 
 if __name__ == '__main__':
