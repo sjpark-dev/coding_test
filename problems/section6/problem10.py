@@ -4,9 +4,9 @@ def dfs(l, s):
         print(*a)
         cnt += 1
     else:
-        for i in range(s, n+1):
-            a[l] = i
-            dfs(l+1, i+1)
+        for k in range(s, n+1):
+            a[l] = k
+            dfs(l+1, k+1)
 
 
 if __name__ == '__main__':
