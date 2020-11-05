@@ -91,7 +91,7 @@ print(math.factorial(5))  # 120
 # 제곱근
 print(math.sqrt(49))  # 7.0
 
-# 최대공햑수
+# 최대공약수
 print(math.gcd(21, 14))  # 7
 
 # pi, e
