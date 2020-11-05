@@ -1,3 +1,5 @@
+# 최솟값 만들기
+
 def solution(A,B):
     A.sort()
     B.sort()
