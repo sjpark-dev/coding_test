@@ -18,6 +18,10 @@ eval()  # 문자열 형식의 수식을 계산 결과를 반환
     ex) print(eval('(1 + 2) * 3'))  # 9
 sorted()
     reverse(True/False), key(len/lambda...) 속성 사용 가능
+chr()
+ord()
+all()
+any()
 '''
 
 # itertools
