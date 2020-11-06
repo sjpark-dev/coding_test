@@ -1,3 +1,5 @@
+# 올바른 괄호
+
 def solution(s):
     answer = True
     stack = []
