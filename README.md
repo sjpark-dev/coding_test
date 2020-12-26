@@ -1,1 +1,1 @@
-코딩테스트 공부 자료
+# Python practice
